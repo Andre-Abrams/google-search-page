@@ -1,0 +1,158 @@
+html, body {
+    height:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0%;
+    margin: 0;
+    font-size: 13px;
+    font-weight: lighter;
+}
+header{
+    border-bottom: 1px solid #ebebeb;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+ul{
+    list-style-type: none;
+    margin: 20px 0px 0 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li.right{
+    padding-left: 175px;
+}
+
+li a{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 0 15px 10px 15px;
+    opacity: 0.75;
+    font-size: 13px;
+    text-align: center;
+}
+
+li a:hover{
+    color: #4c73ee;
+    text-decoration: none;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button.signIn{
+    margin: 5px 0 0 15px;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 0%;
+    display: inline-block;
+}
+
+.container{
+    margin-left: 135px;
+    width: 30%;
+}
+.result{
+    font-size: 14px;
+    word-wrap: break-word;
+    line-height: 0;
+    margin-bottom: 25px;
+}
+
+.result p{
+    line-height: 1.57;
+    color: #3C4043;
+}
+
+.result a{
+    font-size: 20px;
+}
+
+.result i{
+    position: relative;
+    top: 7px;
+    right: 3px;
+}
+
+.tools{
+    margin-top: -10px;
+}
+
+.tools:hover{
+    border: 1px solid grey;
+    cursor: pointer; 
+}
+
+.logo{
+    height: auto;
+    width: 90px;
+    margin: 0 10px;
+}
+
+.search .icon{
+    position: absolute;
+    top: 35px;
+    left: 760px;
+    color: #4285f4;
+}
+
+.date{
+    color: #70757a;
+}
+
+.related{
+    border: 1px solid #dfe1e5;
+    border-radius: 8px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.related h2{
+    font-weight: normal;
+    padding-left: 15px;
+}
+
+.related div{
+    border-top: 1px solid #e5e5e5;
+    font-size: 18px;
+    padding: 9px 15px;
+
+}
+
+.related i{
+    float: right;
+}
+
+#navbar{
+    margin-left: 130px;
+}
+
+#search{
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    width: 35%;
+    margin-top: 22px;
+    margin-left: 0px;
+    padding-left: 18px;
+    font-size: 16px;
+}
+
+#search:hover{
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+}
